@@ -1,5 +1,8 @@
-# laravel blog 
+# laravel_boilerplate 
 [See it in action here](http://jqguess.net/laravelblog) 
+---------------------------------------------------------
+A quick Laravel 5 boilerplate. Easily use Gulp/Elixir and PHPUnit
+to make unit testing and combining CSS, LESS, SASS files a breeze.
 <br />
 <br />
 #### Start by cloning or dowloading the repo and decide on your local environment ####
@@ -12,13 +15,20 @@
 
 #### Fastest option if your not familiar with Homestead, Vagrant ####
 
-* Download and install Xampp with PHP, configure what you want, although it should not be necessary.
-* Add the file that contains php.exe to your Path  <code>C:\xampp\php</code> on normal installation.
-* Start MySQL form the Xampp control panel.
+* <strong>Download and install Xampp with PHP, configure what you want, although it should not be necessary.
+  You will need Composer, Bower, and Nodejs for NPM. <strong/> 
+<br />
+* <strong>Add the file that contains php.exe to your Path  <code>C:\xampp\php</code> on normal installation.<strong/>
+<br />
+* Once these are all installed, cd to the file and run
+   <code> php composer install </code>
+   <code> npm install </code>
+   <code> bower install --save </code>
+* To add a database, Start MySQL form the Xampp control panel.
 * Edit the .env.example or .env file with your database settings. Basic settings would be
  <code>DB_HOST=127.0.0.1
       DB_DATABASE=Homestead
-      DB_USERNAME=root
+      DB_USERNAME=User
       DB_PASSWORD=""</code>
 * Apply these same settings to the database.php file found in the config folder for your DB type.
 * From the CLI, cd to the app folder,  then run <code>$ php artisan migrate</code> This structures your DB.

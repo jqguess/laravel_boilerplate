@@ -31,16 +31,17 @@ to make unit testing and combining CSS, LESS, SASS files a breeze.
       DB_DATABASE=Homestead
       DB_USERNAME=User
       DB_PASSWORD=""</code>
-* Apply these same settings to the database.php file found in the config folder for your DB type.
-* From the CLI, cd to the app folder,  then run <code>$ php artisan migrate</code> This structures your DB.
-* From the CLI run <code>$ php artisan serve</code> which should output server running on <code>http://localhost:8000</code>
+* Apply these same settings to the database.php file found in the config folder for your DB type. <br/>
+* From the CLI, cd to the app folder,  then run <code>$ php artisan migrate</code> This structures your DB. <br />
+* From the CLI run <code>$ php artisan serve</code> which should output server running on <code>http://localhost:8000</code> <br />
 * Point your browser and you should see the app's output. If no dice, try Laravels installation guide.  <br />
 
 #### Gulp, Elixer, PHPUnit ####
-Out of the box, boilerplate is setup to mix all CSS/LESS/SASS files with the commands
+
+* Out of the box, boilerplate is setup to mix all CSS/LESS/SASS files with the commands <br />
 <code> $ gulp copyfiles </code> and then <code> $ gulp </code> <br />
-Easily run all unit tests with Gulp-Elixir from your cli with <code> $ gulp phpunit </code> <br />
-Profit!
+* Easily run all unit tests with Gulp-Elixir from your cli with <code> $ gulp phpunit </code> <br />
+* Profit!
 
 
 

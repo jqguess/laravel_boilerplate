@@ -15,10 +15,10 @@ to make unit testing and combining CSS, LESS, SASS files a breeze.
 
 #### Fastest option if your not familiar with Homestead, Vagrant ####
 
-* <strong>Download and install Xampp with PHP, configure what you want, although it should not be necessary.
-  You will need Composer, Bower, and Nodejs for NPM. <strong/> 
+* Download and install Xampp with PHP, configure what you want, although it should not be necessary.
+  You will need Composer, Bower, and Nodejs for NPM. 
 <br />
-* <strong>Add the file that contains php.exe to your Path  <code>C:\xampp\php</code> on normal installation.<strong/>
+* Add the file that contains php.exe to your Path  <code>C:\xampp\php</code> on normal installation.
 <br />
 * Once these are all installed, cd to the file and run
    <code>$ php composer install </code>
